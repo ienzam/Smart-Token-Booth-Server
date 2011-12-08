@@ -1,0 +1,21 @@
+SMART TOKEN BOOTH
+
+Smart Token Booth system is a system to remove the queue from the places
+where users need to stand in a line for any service.
+
+The full solution needs a computer to act as server and each service 
+booth needs a small device to communicate with the server. Token counter
+will also need to have a small device.
+
+The most interesting and important feature is the whole system does not
+need any wiring. All communications with server is done via radio
+transmission. And it's easy to configure :-).
+
+This is the server part (which resides on a pc). It is build with Qt
+framework and works on Linux, Window and Mac (tested on Ubuntu 11.04,
+Windows 7). It needs the QSerialDevice which can be found here -
+https://gitorious.org/qserialdevice . It is under GPL license.
+
+The project is under MIT License. You should have gotten a copy of
+the license. If you haven't, you can get a copy from -
+http://www.opensource.org/licenses/mit-license.php
